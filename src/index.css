@@ -1,0 +1,24 @@
+/* 1. Kill the scrollbar logic that might cause side gaps */
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+}
+
+/* 2. The Nuclear Reset */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw; /* Forces it to never exceed viewport width */
+  overflow-x: hidden; /* Cuts off anything sticking out */
+}
+
+/* 3. Ensure the app container stretches */
+.app-container {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}

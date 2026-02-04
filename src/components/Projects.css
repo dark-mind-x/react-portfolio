@@ -1,0 +1,17 @@
+.projects-section {
+  padding: 60px 10%;
+  background-color: #1a1a1a; /* Dark background */
+}
+
+.projects-section h2 {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
