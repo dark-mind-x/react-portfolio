@@ -1,0 +1,56 @@
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  background-color: #f4f4f4;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  color: #61dafb;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  color: #333;
+  margin: 0 0 20px 0;
+}
+
+.avatar-circle {
+  width: 250px;
+  height: 250px;
+  background-color: #333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #61dafb;
+}
+
+.initials {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.cta-button {
+  background-color: #333;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #61dafb;
+  color: black;
+}
